@@ -118,7 +118,7 @@ function preload() {
       snake.addImage(snk);
       snake.scale=random(0.08,0.2);   
       snake.shapeColor="green"
-      snake.velocityX=random(-4,8);
+      snake.velocityX=random(-8,0);
       snakeGroup.add(snake);
       }
     }
